@@ -81,8 +81,8 @@ mv "$tmppackage" "$pkgjson"
 chmod 644 "$pkgjson"
 
 # Install license
-install -dm755 "${pkgdir}/usr/share/licenses/${_relname}"
-ln -s ../../../lib/node_modules/eslint/LICENSE "${pkgdir}/usr/share/licenses/${_relname}/LICENSE"
+# install -dm755 "${pkgdir}/usr/share/licenses/${_relname}"
+# ln -s ../../../lib/node_modules/eslint/LICENSE "${pkgdir}/usr/share/licenses/${_relname}/LICENSE"
 
 # Create Archiv8 documentation folder
 # install -dvm 755 "$pkgdir/usr/share/doc/${_relname}/packaging/"
