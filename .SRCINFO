@@ -1,0 +1,15 @@
+pkgbase = acorn
+	pkgdesc = A tiny, fast JavaScript parser written in JavaScript.
+	pkgver = 8.7.0
+	pkgrel = 1
+	url = https://eslint.org
+	arch = any
+	license = MIT
+	makedepends = npm
+	makedepends = jq
+	depends = nodejs
+	noextract = acorn-8.7.0.tgz
+	source = https://registry.npmjs.org/acorn/-/acorn-8.7.0.tgz
+	sha512sums = 57f2c6af500fcbe3d723029e6c45ab9193f0a1ea05fb0d6388e0549aec6e89421a387b686fc41cf414eb628ed5b88e5f47cb6ab32f9bb80d96168a11e6896abd
+
+pkgname = acorn
