@@ -1,7 +1,7 @@
 pkgbase = acorn
 	pkgdesc = A tiny, fast JavaScript parser written in JavaScript.
 	pkgver = 8.7.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://eslint.org
 	arch = any
 	license = MIT

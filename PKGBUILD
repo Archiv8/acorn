@@ -7,6 +7,7 @@
 # shellcheck disable=SC2034,SC2154
 # [ToDo]: Add files: User documentation
 # [ToDo]: Add files: Tooling
+# [ToDo]: Clean ou unnecessary variables
 # [FixMe]: Namcap warnings and errors
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
@@ -21,7 +22,7 @@ _repo="https://registry.npmjs.org"
 # pkgbase=
 pkgname="${_relname}"
 pkgver=8.7.0
-pkgrel=1
+pkgrel=2
 # epoch=
 pkgdesc="A tiny, fast JavaScript parser written in JavaScript."
 arch=("any")
